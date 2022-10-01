@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <!-----------------------------------------------------
+            Meta tags configurations
+        ------------------------------------------------------->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Vote nulo!">
+        <meta name="description" content="Esse outubro não será nosso! Vote nulo!">
+        <meta property="og:image" content="https://raw.githubusercontent.com/votenulo/2022/main/og-image.png">
+        <meta property="og:description" content="Esse outubro não será nosso! Vote nulo!">
+
+        <title>Voto Nulo</title>
+
+        <!---------------------------------
+            Carrega o fav icone do site
+        ----------------------------------->
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/votenulo/2022/main/favicon.png"/>
+
+        <!---------------------------------
+            Carrega HTML externo
+        ----------------------------------->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+            $(function () {
+                $('#menu').load("./menu.html");
+                $('#banner').load("./banner.html");
+                $('#footer').load("./footer.html");
+            });
+        </script>
+
+        <!-----------------------------------------------
+            Carrega os Icones do Google Material icons
+        -------------------------------------------------->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!---------------------------------
+            Carrega css nativo
+        ----------------------------------->
+        <link rel="stylesheet" type="text/css" href="./art.css">
+
+        <!-----------------------------------------------
+            Carrega os Icones do Google Material icons
+        -------------------------------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+        <!-------------------------------------------------------
+            Carrega os botões de compartilhar nas resdes sociais
+        --------------------------------------------------------->
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6117b0ae49abbb00129cb2c1&product=inline-share-buttons" async="async"></script>
+
+        <!-------------------------------------------------------
+            Esconde e exibe navbar ao rolar a página
+        --------------------------------------------------------->
+        <script src="./h-menu.js"></script>
+
+    </head>
+
+    <body>
+        
+        <header class="art-cabecalho">
+            <div class="cont-menu" id="hideMenu">
+                <div class="cont-menu-m">
+                    <div class="cx-logoDesc-large">
+                        <h1>Vote nulo!</h1>
+                    </div>
+                    <div class="menu" id="menu"></div>
+                </div>
+            </div>
+            <div class="cx-logoDesc">
+                <h1>Vote nulo!</h1>
+            </div>
+            <div class="banner" id="banner">
+                
+            </div>
+        </header>
+
+        <section class="a-content-sec">
+          
+            <article class="artigo" id="artigo-0">
+                <div class="art-content-title">
+                    <h1>Dois amigos e uma cachaça</h1>
+                </div>
+
+                <!--
+
+                <div class="art-autores">
+                    <div class="img-autores">
+                        <img src="./nyota-uhura.jpg">
+                    </div>
+                    <p>Nyota Uhura<br>
+                    <span>18 de agosto de 2022</span> </p>
+                </div>
+                <figure>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Elei%C3%A7%C3%B5es_%2815263106629%29.jpg">
+                  <figcaption>Fonte da imagem: Wikpedia</figcaption>
+                </figure>
+
+                -->
+
+                <!-- ShareThis BEGIN
+                <div class="sharethis-inline-share-buttons"></div>
+                ShareThis END -->
+
+                <div class="a-content" id="artigo-0">
+
+                    <p>__ Quantos anos você tem, pião!? Era assim que Rommel chamava Pedro. Antes que Pedro respondesse, Rommel sapecou:</p>
+                    <p>__ E ainda não percebeu que todos só querem lhe enganar?</p>
+                    <p>Pedro, com um sorriso, apenas aguardava Rommel. Trabalhavam juntos há anos. Sabia o que viria! </p>
+                    <p>__ Lula e Bolsonaro são farinhas do mesmo saco! Brigam nas eleições, mas se dão bem fora delas.</p>
+                    <p>__ Claro que não! Bolsonaro é fascista! O Lula é um democrata.</p>
+                    <p>__ Pense, Pedro: quem fez as leis mais duras contra o movimento dos trabalhadores? Não foi
+                        a Dilma? Quem desmontou os sindicatos, não foi o Lula? Qual o governo em que mais se
+                        roubou? Não foi o do Lula? Qual o governo que mais entregou a educação e a saúde aos
+                        capitalistas? Não foi o do PT? Quando a desigualdade social só aumentou? Quando os ricos
+                        nunca foram tão ricos? Quem foi que Lula colocou para comandar as tropas brasileiras no Haiti e
+                        para comandar a intervenção no Rio de Janeiro? Não foram os generais bolsonaristas Heleno e
+                        Braga Neto, hoje vice de Bolsonaro? Os aliados ontem de Lula não são hoje aliados de
+                        Bolsonaro? E não serão amanhã de Lula, novamente, se ele ganhar as eleições? Quem pagou
+                        para as pessoas abrirem mão do direito de processarem na justiça os seus torturadores?
+                    </p>
+                    <p>Rommel tomou fôlego:</p>
+                    <p>__ Quer que continue? Quem mais ajudou os latifundiários a tirar a terra dos camponeses e
+                        pequenos agricultores? Quem deixou que bilhões de reais do povo fossem parar nas contas de
+                        empresários como o Odebrecht e de políticos como o Cunha e o Temer? Quem fez a maior
+                        reforma da previdência, tirando o direito à aposentadoria dos funcionários públicos? Tudo
+                        isso...e mais!.. Foram o Lula e o PT...
+                    </p>
+                    <p>__ Mas Lula não quer um golpe de Estado. Não fala em acabar com a democracia.</p>
+                    <p>__ Só porque ele acha que vai ganhar as eleições! Se fosse perder, estava já tentando
+                        organizar um impeachment. Se os militares prometessem um golpe para colocar ele no poder no lugar de Bolsonaro, acha que não toparia? Bolsonaro e Lula defendem a democracia quando esta
+                        serve para os ricos ficarem mais ricos e, os trabalhadores, mais explorados – e eles estarem no
+                        poder!
+                    </p>
+                    <p>__ Lula é um trabalhador...</p>
+                    <p>__ Foi! Veja: foi um operário. E você pensa que não tem operário sem vergonha o suficiente
+                        para se vender aos patrões? De onde vem os milhões da fortuna do Lula? Do salário dele? Faça
+                        as contas: some todos os salários que ele ganhou na vida, desconte um salário mínimo por mês
+                        (imaginando que ele viva só com um salário mínimo) e veja se corresponde ao que ele declarou
+                        no inventário quando da morte de sua primeira esposa, a Marisa. Já fiz as contas! Falta um
+                        montão!!!
+                    </p>
+                    <p>__ Mas Lula não é Bolsonaro!</p>
+                    <p>__ Claro que não! Nenhum bandido é igual a outro! Por que temos que escolher entre um ou
+                        outro? É isto que nós trabalhadores precisamos?
+                    </p>
+                    <p>__ Tá bom, Rommel!! Você vai fazer o quê?</p>
+                    <p>__ Vou deixar a ilusão de que ao votar eu mudo minha situação. É o contrário: quando a gente
+                        vota, é para eleger alguém que vai fazer o que lhe der mais dinheiro, e não o que o povo precisa.
+                        Os capitalistas pagam, os políticos embolsam e o trabalhador se ferra!
+                    </p>
+                    <p>__ Assim, vai deixar que qualquer um seja eleito...</p>
+                    <p>__ Que diferença, de verdade, faz? Petistas ou bolsonaristas, são todos hienas da mesma
+                        matilha! Não dou meu voto prá eles! Vou votar nulo em protesto! Não dá mais para viver assim!
+                        Temos que mudar tudo! De cabo a rabo! Para nunca mais termos de escolher entre dois
+                        corruptos, um traidor dos trabalhadores como o Lula, ou um bandido como o Bolsonaro.
+                    </p>
+                    <p>__ E isso adianta alguma coisa?</p>
+                    <p>__ Adianta: estamos protestando. Muita gente vai votar nulo! Mas você tem razão: só votar é
+                        pouco, não muda nada...
+                    </p>
+                    <p>__ Então, o que adianta votar nulo?</p>
+                    <p>__ É um protesto. Apenas um passo. Temos que nos organizar para mudar esta sociedade 
+                        injusta, em que os trabalhadores produzem toda a riqueza e recebem em troco o desemprego ou
+                        um salário de merda.
+                    </p>
+                    <p>__ Pronto! Agora começou a delirar! Como vai ser essa sociedade? Como fazer isso
+                        acontecer?
+                    </p>
+                    <p>Rommel deu uma boa gargalhada! Daquelas que só ele sabe dar! Respondeu, rindo:</p>
+                    <p>__ Pedro, isso fica prá amanhã... agora vou atrás da minha cachaça!</p>
+                    <p>__ Rommel, estamos no boteco... peça sua cachaça!</p>
+                    <p>Mais uma gargalhada!</p>
+                    <p>__ Minha cachaça é a Celeste... que está em casa me esperando!</p>
+                    <p>E lá se foi Rommel, depois de dar um tchau pra todos no bar, prometendo amanhã responder.</p>
+
+                </div>
+            </article>
+            
+        </section>
+
+        <footer id="footer">
+
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <!-----------------------------------------------------
+            Meta tags configurations
+        ------------------------------------------------------->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Vote nulo!">
+        <meta name="description" content="Esse outubro não será nosso! Vote nulo!">
+        <meta property="og:image" content="https://raw.githubusercontent.com/votenulo/2022/main/og-image.png">
+        <meta property="og:description" content="Esse outubro não será nosso! Vote nulo!">
+
+        <title>Voto Nulo</title>
+
+        <!---------------------------------
+            Carrega o fav icone do site
+        ----------------------------------->
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/votenulo/2022/main/favicon.png"/>
+
+        <!---------------------------------
+            Carrega HTML externo
+        ----------------------------------->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script>
+            $(function () {
+                $('#menu').load("./menu.html");
+                $('#banner').load("./banner.html");
+                $('#footer').load("./footer.html");
+
+                $('#art0').load("./art0.html");
+                $('#art1').load("./art1.html");
+                $('#art2').load("./art2.html");
+                $('#art3').load("./art3.html");
+                $('#art4').load("./art4.html");
+                $('#art5').load("./art5.html");
+                $('#art6').load("./art6.html");
+                $('#art7').load("./art7.html");
+                $('#art8').load("./art8.html");
+            });
+        </script>
+
+        <!-----------------------------------------------
+            Carrega os Icones do Google Material icons
+        -------------------------------------------------->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!---------------------------------
+            Carrega css nativo
+        ----------------------------------->
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./responsive.css">
+
+        <!-----------------------------------------------
+            Carrega os Icones do Google Material icons
+        -------------------------------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+        <!-------------------------------------------------------
+            Carrega os botões de compartilhar nas resdes sociais
+        --------------------------------------------------------->
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6117b0ae49abbb00129cb2c1&product=inline-share-buttons" async="async"></script>
+
+        <!-------------------------------------------------------
+            Esconde e exibe navbar ao rolar a página
+        --------------------------------------------------------->
+        <script src="./h-menu.js"></script>
+
+    </head>
+
+    <body>
+        
+        <header class="cabecalho">
+            
+            <div class="cont-menu">
+                <div class="cont-menu-m">
+                    <div class="cx-logoDesc-large">
+                        <h1>#VoteNulo!</h1>
+                    </div>
+                    <div class="menu" id="menu"></div>
+                </div>
+            </div>
+
+            <div class="cx-logoDesc">
+                <h1>Vote nulo!</h1>
+            </div>
+            <div class="banner" id="banner">
+                Serei um banner em JavaScript
+            </div>
+        </header>
+
+        <section class="content-sec">
+            <div class="content-title">
+                <h2> <a href="https://mega.nz/file/7FpW2bTS#9qT-BXytPJUDJhKjYPVu9MaazkYpChKZ1H3GM9tDzss" target="_blank"> Clique aqui e leia nosso manifesto </a> </h2>
+            </div>
+            <div class="content" id="ultimos-art">
+                <a href="./art4.html" class="cx-artigo" id="art4"></a>
+                <a href="./art3.html" class="cx-artigo" id="art3"></a>
+                <a href="./art2.html" class="cx-artigo" id="art2"></a>
+                <a href="./art1.html" class="cx-artigo" id="art1"></a>
+                <a href="./art0.html" class="cx-artigo" id="art0"></a>
+            </div>
+        </section>
+
+        <footer id="footer">
+
+        </footer>
+
+            <!-- PushAlert Onsite Messaging
+                <script type="text/javascript">
+                    (function(d, t) {
+                        var g = d.createElement(t),
+                        s = d.getElementsByTagName(t)[0];
+                        g.src = "https://cdn.inwebr.com/inwebr_b7fe3cc7b2c441252acac614e4947ec7.js";
+                        s.parentNode.insertBefore(g, s);
+                    }(document, "script"));
+                </script>
+             End PushAlert Onsite Messaging -->
+
+    </body>
+
+</html>
