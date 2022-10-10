@@ -5,6 +5,31 @@
   header .menu .large-menu{
     display: none;
   }
+
+  .content-sec{
+    margin: 20px auto;
+  }
+  .content-sec .content-title h1{
+    font-size: 26px;
+  }
+
+  .content-sec .content-title .content-title-sub{
+    columns: unset;
+  }
+
+
+  .content-sec .content-title .gradient .caixa-assinantes{
+    display: block;
+    border: none;
+  }
+
+  .content-sec .content-title .gradient .caixa-assinantes .cx-ass{
+    border: solid 1px rgba(0, 0, 0, .3);
+    width: auto;
+    padding: 3px 3px;
+  }
+
+
 }
 
 
