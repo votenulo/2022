@@ -30,6 +30,17 @@
   }
 
 
+
+  .content-sec .content .a-content-sec .artigo .a-content p{
+    font-size: 18px;
+  }
+
+  .content-sec .content .cx-artigo{
+    padding: 0px 10px;
+  }
+
+
+
 }
 
 
@@ -57,7 +68,5 @@
     width: 30%;
     padding: 10px;
   }
-  .content-sec .content .cx-artigo:nth-child(n+4){
-    border-top: none;
-  }
+  
 }

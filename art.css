@@ -113,9 +113,10 @@ header .banner{
 }
 .a-content-sec .artigo .art-content-title{
     border-bottom: solid 5px #c02e3a;
+    margin-bottom: 20px;
 }
 .a-content-sec .artigo .art-content-title h1{
-    font-size: 22px;
+    font-size: 38px;
     margin-bottom: 10px;
 }
 .a-content-sec .artigo .art-autores{
@@ -135,8 +136,10 @@ header .banner{
     border-radius: 100%;
 }
 .a-content-sec .artigo .art-autores p{
-    padding: 0px 0px 0px 10px;
+    padding: 6px 10px;
     font-weight: 600;
+    color: #ffffff;
+    background-color: #c02e3a;
 }
 .a-content-sec .artigo .art-autores p span{
     font-size: 14px;
@@ -168,6 +171,12 @@ header .banner{
     margin: 0px 0px 15px;
 }
 
+.a-content-sec .artigo .a-content .cita-destaque{
+    background-color: rgba(43, 34, 0, .1);
+    padding: 20px;
+    font-size: 12px;
+}
+
 
 
 
@@ -179,6 +188,11 @@ header .banner{
     }
     header .menu .large-menu{
       display: none;
+    }
+
+    .a-content-sec .artigo .art-content-title h1{
+        font-size: 26px;
+        margin-bottom: 10px;
     }
 }
   
